@@ -201,13 +201,7 @@ def simulateOneServer(request_list):
 def main():
     """
     The primary function of this application. The server param is set to default to 1 if not passed in.
-
-    Ex:
-        python3 simulation.py http://s3.amazonaws.com/cuny-is211-spring2015/requests.csv 5
-    Or:
-        python3 simulation.py http://s3.amazonaws.com/cuny-is211-spring2015/requests.csv  
-            
-
+         
     Args:
         url(string): url endpoint
         server(int): number of servers, defaults to 1 if not passed in.
